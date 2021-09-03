@@ -23,6 +23,6 @@ jobs:
              sed -i "s#https://raw.githubusercontent.com/Aaron-lv/updateTeam/master/shareCodes/jxhb.json#https://code.aliyun.com/wudongdefeng/updateteam/raw/master/shareCodes/jxhb.json#g" jd_jxlhb.js
              sed -i "s#https://purge.jsdelivr.net/gh/Aaron-lv/updateTeam@master/shareCodes/jxhb.json#https://code.aliyun.com/wudongdefeng/updateteam/raw/master/shareCodes/jxhb.json#g" jd_jxlhb.js
              sed -i "s#https://cdn.jsdelivr.net/gh/Aaron-lv/updateTeam@master/shareCodes/jxhb.json#https://code.aliyun.com/wudongdefeng/updateteam/raw/master/shareCodes/jxhb.json#g" jd_jxlhb.js
-             cat jd_redPacket.js
+             cat jd_jxlhb.js
              
              
