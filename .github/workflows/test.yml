@@ -23,6 +23,6 @@ jobs:
              sed -i "s#https://raw.githubusercontent.com/Aaron-lv/updateTeam/master/shareCodes/jd_updateCash.json#https://code.aliyun.com/wudongdefeng/updateteam/raw/master/shareCodes/jd_updateCash.json#g" jd_cash.js
              sed -i "s#https://purge.jsdelivr.net/gh/Aaron-lv/updateTeam@master/shareCodes/jd_updateCash.json#https://code.aliyun.com/wudongdefeng/updateteam/raw/master/shareCodes/jd_updateCash.json#g" jd_cash.js
              sed -i "s#https://cdn.jsdelivr.net/gh/Aaron-lv/updateTeam@master/shareCodes/jd_updateCash.json#https://code.aliyun.com/wudongdefeng/updateteam/raw/master/shareCodes/jd_updateCash.json#g" jd_cash.js
-             cat jd_mohe.js
+             cat jd_cash.js
              
              
