@@ -21,6 +21,8 @@ jobs:
             run: |
              curl -O https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_redPacket.js
              sed -i "s#https://raw.githubusercontent.com/Aaron-lv/updateTeam/master/shareCodes/jd_red.json#https://code.aliyun.com/wudongdefeng/updateteam/raw/master/shareCodes/jd_red.json#g" jd_redPacket.js
+             sed -i "s#https://purge.jsdelivr.net/gh/Aaron-lv/updateTeam@master/shareCodes/jd_red.json#https://code.aliyun.com/wudongdefeng/updateteam/raw/master/shareCodes/jd_red.json#g" jd_redPacket.js
+             sed -i "s#https://cdn.jsdelivr.net/gh/Aaron-lv/updateTeam@master/shareCodes/jd_red.json#https://code.aliyun.com/wudongdefeng/updateteam/raw/master/shareCodes/jd_red.json#g" jd_redPacket.js
              cat jd_redPacket.js
              
              
