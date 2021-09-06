@@ -19,8 +19,10 @@ jobs:
                   
           - name: run
             run: |
-             curl -O https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/sendNotify.js
-             sed -i "s#仅供用于学习#tg频道 ：https:\/\/t.me\/bean_plant#g" sendNotify.js
+             curl -O https://raw.githubusercontent.com/smiek2221/scripts/master/gua_opencard23.js
+             curl -O https://raw.githubusercontent.com/smiek2221/scripts/master/gua_opencard22.js
+             sed -i "s/guaopencard_addSku[0~99]/guaopencard_addSku/g" ./gua_opencard*.js
+             sed -i "s/guaopencard[0~99]/guaopencard/g" ./gua_opencard*.js
              
-             cat sendNotify.js
+             cat gua_opencard23.js
              
